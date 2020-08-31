@@ -1,0 +1,7 @@
+{
+  "name": "TestAja",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
