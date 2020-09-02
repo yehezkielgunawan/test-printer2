@@ -1,20 +1,24 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title> Blank </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Print Test</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <img src="https://cdn.pixabay.com/photo/2020/08/22/00/24/cyclist-5507225__340.jpg" alt="">
+    <h1>test</h1>
+    <ion-button (click)="printWindow()">Print Window</ion-button>
+    <div id="contoh">
+      <h2>Test atuh</h2>
+    </div>
+    <ion-button (click)="printById()">Print by ID</ion-button>
+    <ion-button (click)="printPic()">Print Picture</ion-button>
   </div>
 </ion-content>
